@@ -1,0 +1,43 @@
+@import url("./__heading/additional__container__item__heading.css");
+@import url("./__text/additional__container__item__text.css");
+@import url("./__item-bg/additional__container__item__item-bg.css");
+@import url("./__item-bg/Image/additional__container__item__item-bg_image.css");
+@import url("./__item-bg/rect/additional__container__item__item-bg_rect.css");
+
+.additional__container__item {
+    position: relative;
+    width: 284px;
+    height: 330px;
+    /* left: 48px;
+    top: 6803px; */
+
+    /* border: 1px solid #f00; */
+}
+
+@media (min-width : 1024px) {
+    .additional__container__item {
+        width: 240px;
+        height: 280px;
+    }
+}
+
+@media (max-width : 768px) {
+    .additional__container__item {
+        width: 284px;
+        height: 330px;
+    }
+}
+
+@media (max-width : 375px) {
+    .additional__container__item {
+        width: 284px;
+        height: 330px;
+    }
+}
+
+@media (max-width : 320px) {
+    .additional__container__item {
+        width: 288px;
+        height: 330px;
+    }
+}

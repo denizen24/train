@@ -1,0 +1,51 @@
+.intro__subtitle {
+    position: absolute;
+    width: 683px;
+    height: 23px;
+    left: 0px;
+    top: 97px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 37px;
+    font-weight: normal;
+
+    color: #FFFFFF;
+}
+
+@media (min-width : 1024px) {
+    .intro__subtitle {
+        width: 692px;
+        line-height: 38px;
+    }
+}
+
+@media (max-width : 768px) {
+    .intro__subtitle {
+        width: 720px;
+        line-height: 38px;
+    }
+}
+
+@media (max-width : 375px) {
+    .intro__subtitle {
+        width: 343px;
+        height: 57px;
+        left: 0px;
+        top: 95px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width : 320px) {
+    .intro__subtitle {
+        width: 288px;
+        height: 72px;
+        left: 0px;
+        top: 95px;
+        line-height: 32px;
+    }
+}

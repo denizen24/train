@@ -1,0 +1,48 @@
+@import url("./__title/emblem__title.css");
+@import url("./__container/emblem__container.css");
+
+.emblem {
+    position: absolute;
+    width: 1184px;
+    height: 523px;
+    left: 48px;
+    top: 8607px;
+
+    /* border: 1px solid #f00; */
+}
+
+@media (min-width : 1024px) {
+    .emblem {
+        width: 992px;
+        height: 499px;
+        left: 16px;
+        top: 8804px;
+    }
+}
+
+@media (max-width : 768px) {
+    .emblem {
+        width: 720px;
+        height: 871px;
+        left: 24px;
+        top: 9567px;
+    }
+}
+
+@media (max-width : 375px) {
+    .emblem {
+        width: 343px;
+        height: 1766px;
+        left: 16px;
+        top: 13412px;
+    }
+}
+
+@media (max-width : 320px) {
+    .emblem {
+        width: 288px;
+        height: 1766px;
+        left: 16px;
+        top: 13766px;
+    }
+}

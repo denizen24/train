@@ -1,0 +1,54 @@
+.barentsburg__coord {
+    position: absolute;
+    width: 583px;
+    height: 40px;
+    left: 0px;
+    top: 60px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-family: Inter;
+    font-size: 42px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+
+    /* border: 1px solid #f00; */
+}
+
+@media (min-width : 1024px) {
+    .barentsburg__coord {
+        left: 48px;
+    }
+}
+
+@media (max-width : 768px) {
+    .barentsburg__coord {
+        left: 24px;
+        width: 720px;
+        line-height: 61px;
+    }
+}
+
+@media (max-width : 375px) {
+    .barentsburg__coord {
+        left: 16px;
+        width: 343px;
+        height: 24px;
+        font-size: 16px;
+        line-height: 23px;
+        top: 40px;
+    }
+}
+
+@media (max-width : 320px) {
+    .barentsburg__coord {
+        left: 16px;
+        width: 288px;
+        height: 24px;
+        font-size: 16px;
+        line-height: 23px;
+        top: 40px;
+    }
+}

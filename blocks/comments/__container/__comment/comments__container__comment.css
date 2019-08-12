@@ -1,0 +1,116 @@
+@import url("./__author/comments__container__comment__author.css");
+@import url("./__image/comments__container__comment__image.css");
+@import url("./__quote/comments__container__comment__quote.css");
+
+.comments__container__comment {
+    position: relative;
+    width: 382px;
+    height: 283px;
+    
+}
+
+.comments__container__comment:first-child {
+    position: relative;
+    width: 382px;
+    height: 213px;
+    
+}
+
+.comments__container__comment:last-child {
+    position: relative;
+    width: 382px;
+    height: 236px;
+    
+}
+
+@media (min-width : 1024px) {
+    .comments__container__comment {
+        position: relative;
+        width: 285px;
+        height: 339px;
+        
+    }
+    
+    .comments__container__comment:first-child {
+        position: relative;
+        width: 272px;
+        height: 241px;
+        
+    }
+    
+    .comments__container__comment:last-child {
+        position: relative;
+        width: 298px;
+        height: 267px;
+        
+    }
+}
+
+@media (max-width : 768px) {
+    .comments__container__comment {
+        position: relative;
+        width: 336px;
+        height: 317px;
+        
+    }
+    
+    .comments__container__comment:first-child {
+        position: relative;
+        width: 343px;
+        height: 225px;
+        
+    }
+    
+    .comments__container__comment:last-child {
+        position: relative;
+        width: 343px;
+        height: 246px;
+        
+    }
+}
+
+@media (max-width : 375px) {
+    .comments__container__comment {
+        position: relative;
+        width: 343px;
+        height: 321px;
+        
+    }
+    
+    .comments__container__comment:first-child {
+        position: relative;
+        width: 343px;
+        height: 225px;
+        
+    }
+    
+    .comments__container__comment:last-child {
+        position: relative;
+        width: 343px;
+        height: 249px;
+        
+    }
+}
+
+@media (max-width : 320px) {
+    .comments__container__comment {
+        position: relative;
+        width: 288px;
+        height: 341px;
+        
+    }
+    
+    .comments__container__comment:first-child {
+        position: relative;
+        width: 288px;
+        height: 249px;
+        
+    }
+    
+    .comments__container__comment:last-child {
+        position: relative;
+        width: 288px;
+        height: 225px;
+        
+    }
+}

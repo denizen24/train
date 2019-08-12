@@ -1,0 +1,43 @@
+.barentsburg__map {
+    position: absolute;
+    width: 1184px;
+    height: 464px;
+    left: 0px;
+    top: 148px;
+
+    /* border: 1px solid #f00; */
+}
+
+@media (min-width : 1024px) {
+    .barentsburg__map {
+        width: 1024px;
+        height: 464px;
+        left: 0px;
+    }
+}
+
+@media (max-width : 768px) {
+    .barentsburg__map {
+        width: 768px;
+        height: 362px;
+        left: 0px;
+    }
+}
+
+@media (max-width : 375px) {
+    .barentsburg__map {
+        width: 375px;
+        height: 184px;
+        left: 0px;
+        top: 80px;
+    }
+}
+
+@media (max-width : 320px) {
+    .barentsburg__map {
+        width: 320px;
+        height: 184px;
+        left: 0px;
+        top: 80px;
+    }
+}

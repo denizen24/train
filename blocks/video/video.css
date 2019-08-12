@@ -1,0 +1,47 @@
+@import url("../../blocks/content-subtitle/content-subtitle.css");
+@import url("../../blocks/content-title/content-title.css");
+@import url("../../blocks/video/__container/video__container.css");
+
+.video {
+    position: absolute;
+    width: 1184px;
+    height: 648px;
+    left: 48px;
+    top: 5841px;
+    /* border: 1px solid #f00; */
+}
+
+@media (min-width : 1024px) {
+    .video {
+        width: 928px;
+        height: 614px;
+        top: 6014px;
+    }
+}
+
+@media (max-width : 768px) {
+    .video {
+        width: 720px;
+        height: 442px;
+        left: 24px;
+        top: 6241px;
+    }
+}
+
+@media (max-width : 375px) {
+    .video {
+        width: 343px;
+        height: 608px;
+        left: 16px;
+        top: 9641px;
+    }
+}
+
+@media (max-width : 320px) {
+    .video {
+        width: 288px;
+        height: 616px;
+        left: 16px;
+        top: 9999px;
+    }
+}

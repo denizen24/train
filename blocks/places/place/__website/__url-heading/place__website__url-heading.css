@@ -1,0 +1,45 @@
+.place__website__url-heading {
+    position: absolute;
+    width: 484px;
+    height: 12px;
+    left: 0px;
+    top: 0px;
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+
+    color: #AAAAAA;
+
+    /* border: 1px solid #f00; */
+}
+
+@media (min-width : 1024px) {
+    .place__website__url-heading {
+        width: 456px;
+    }
+}
+
+@media (max-width : 768px) {
+    .place__website__url-heading {
+        width: 352px;
+    }
+}
+
+@media (max-width : 375px) {
+    .place__website__url-heading {
+        width: 343px;
+        left: 0px;
+    }
+}
+
+@media (max-width : 320px) {
+    .place__website__url-heading {
+        width: 288px;
+        left: 0px;
+    }
+}

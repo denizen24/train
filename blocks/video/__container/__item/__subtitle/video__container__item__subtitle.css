@@ -1,0 +1,50 @@
+.video__container__item__subtitle {
+    position: absolute;
+    width: 285px;
+    height: 13px;
+    left: 30px;
+    top: 280px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 15px;
+    
+    color: #FFFFFF; 
+    z-index: 3;
+}
+
+@media (min-width : 1024px) {
+    .video__container__item__subtitle {
+        top: 240px;
+    }
+}
+
+@media (max-width : 768px) {
+    .video__container__item__subtitle {
+        width: 178px;
+        height: 16px;
+        left: 24px;
+        top: 160px;
+    }
+}
+
+@media (max-width : 375px) {
+    .video__container__item__subtitle {
+        width: 295px;
+        height: 16px;
+        left: 24px;
+        top: 160px;
+    }
+}
+
+@media (max-width : 320px) {
+    .video__container__item__subtitle {
+        width: 256px;
+        height: 16px;
+        left: 16px;
+        top: 160px;
+    }
+}

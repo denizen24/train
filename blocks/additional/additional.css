@@ -1,0 +1,123 @@
+@import url("../../blocks/content-subtitle/content-subtitle.css");
+@import url("../../blocks/content-title/content-title.css");
+@import url("../../blocks/additional/__container/additional__container.css");
+
+.additional {
+    position: absolute;
+    width: 1184px;
+    height: 542px;
+    left: 48px;
+    top: 6591px;
+
+    /* border: 1px solid #f00; */
+}
+
+.additional-title {
+    height: 69px!important;
+}
+
+.additional-subtitle {
+    top: 117px !important;
+}
+
+@media (min-width : 1024px) {
+    .additional {
+        width: 991px;
+        height: 484px;
+        top: 6730px;
+        left: 17px;
+    }
+
+    .additional-title {
+        width: 800px !important;
+        height: 69px!important;
+        left: 95px !important;
+        line-height: 65px !important;
+    }
+    
+    .additional-subtitle {
+        width: 640px !important;
+        height: 23px!important;
+        left: 175px !important;
+        top: 117px !important;
+    }
+}
+
+@media (max-width : 768px) {
+    .additional {
+        width: 640px;
+        height: 835px;
+        top: 6785px;
+        left: 64px;
+    }
+
+    .additional-title {
+        width: 512px !important;
+        height: 56px!important;
+        left: 64px !important;
+        font-size: 42px !important;
+        line-height: 46px !important;
+        font-weight: bold !important;
+    }
+    
+    .additional-subtitle {
+        width: 640px !important;
+        height: 23px!important;
+        left: 0px !important;
+        top: 80px !important;
+    }
+}
+
+@media (max-width : 375px) {
+    .additional {
+        width: 284px;
+        height: 1536px;
+        top: 10313px;
+        left: 45px;
+    }
+
+    .additional-title {
+        width: 284px !important;
+        height: 40px!important;
+        left: 0px !important;
+        font-size: 32px !important;
+        line-height: 35px !important;
+        font-weight: bold !important;
+    }
+    
+    .additional-subtitle {
+        width: 284px !important;
+        height: 40px!important;
+        left: 0px !important;
+        top: 56px !important;
+        font-size: 16px !important;
+        line-height: 23px !important;
+    }
+}
+
+@media (max-width : 320px) {
+    .additional {
+        width: 288px;
+        height: 1536px;
+        top: 10679px;
+        left: 16px;
+    }
+
+    .additional-title {
+        width: 288px !important;
+        height: 40px!important;
+        left: 0px !important;
+        font-size: 32px !important;
+        line-height: 35px !important;
+        font-weight: bold !important;
+    }
+    
+    .additional-subtitle {
+        width: 288px !important;
+        height: 40px!important;
+        left: 0px !important;
+        top: 56px !important;
+        font-size: 16px !important;
+        line-height: 23px !important;
+    }
+}

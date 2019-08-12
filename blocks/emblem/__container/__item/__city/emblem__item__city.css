@@ -1,0 +1,47 @@
+.emblem__item__city {
+    position: absolute;
+    width: 208px;
+    height: 49px;
+    left: 0px;
+    top: 261px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #CCCCCC;
+
+    /* border: 1px solid #f00; */
+}
+
+@media (min-width : 1024px) {
+    .emblem__item__city {
+        width: 190px;
+        top: 237px;
+    }
+}
+
+@media (max-width : 768px) {
+    .emblem__item__city {
+        width: 208px;
+        top: 261px;
+    }
+}
+
+@media (max-width : 375px) {
+    .emblem__item__city {
+        width: 208px;
+        top: 261px;
+    }
+}
+
+@media (max-width : 320px) {
+    .emblem__item__city {
+        width: 208px;
+        top: 261px;
+    }
+}

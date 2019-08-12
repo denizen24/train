@@ -1,0 +1,44 @@
+.header__lang-en {
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    left: 1154px;
+    /* top: 47px; */
+    margin: 17px 0px 12px 0px;
+
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
+    text-decoration-line: none;
+
+    /* border: 1px solid red; */
+    color: #FFFFFF;
+}
+
+@media (min-width : 1024px) {
+    .header__lang-en {
+        left: 946px;
+    }
+}
+
+@media (max-width : 768px) {
+    .header__lang-en {
+        left: 690px;
+    }
+}
+
+@media (max-width : 375px) {
+    .header__lang-en {
+        left: 329px;
+    }
+}
+
+@media (max-width : 320px) {
+    .header__lang-en {
+        left: 264px;
+        height: 18px;
+        font-size: 18px;
+        line-height: 17px;
+    }
+}

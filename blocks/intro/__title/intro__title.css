@@ -1,0 +1,47 @@
+.intro__title {
+    position: absolute;
+    width: 683px;
+    height: 52px;
+    left: 0px;
+    top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-family: Inter;
+    font-size: 54px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+}
+
+@media (min-width : 1024px) {
+    .intro__title {
+        width: 928px;
+        line-height: 59px;
+    }
+}
+
+@media (max-width : 768px) {
+    .intro__title {
+        width: 720px;
+        line-height: 59px;
+    }
+}
+
+@media (max-width : 375px) {
+    .intro__title {
+        width: 343px;
+        height: 72px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width : 320px) {
+    .intro__title {
+        width: 288px;
+        height: 81px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

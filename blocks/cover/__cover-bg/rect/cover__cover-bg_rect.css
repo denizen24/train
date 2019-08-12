@@ -1,0 +1,39 @@
+.cover__cover-bg_rect {
+    position: absolute;
+    width: 1184px;
+    height: 594px;
+    /* left: 48px;
+    top: 7931px; */
+    
+    background: #2A2C2F;
+    opacity: 0.3; 
+    z-index: 1;
+}
+
+@media (min-width : 1024px) {
+    .cover__cover-bg_rect {
+        width: 1024px;
+        height: 591px;
+    }
+}
+
+@media (max-width : 768px) {
+    .cover__cover-bg_rect {
+        width: 768px;
+        height: 500px;
+    }
+}
+
+@media (max-width : 375px) {
+    .cover__cover-bg_rect {
+        width: 375px;
+        height: 272px;
+    }
+}
+
+@media (max-width : 320px) {
+    .cover__cover-bg_rect {
+        width: 320px;
+        height: 216px;
+    }
+}

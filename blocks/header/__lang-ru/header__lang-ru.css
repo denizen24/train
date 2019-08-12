@@ -1,0 +1,44 @@
+.header__lang-ru {
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    left: 1106px;
+    /* top: 47px; */
+    margin: 17px 0px 12px 0px;
+
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
+    text-decoration-line: underline;
+
+    /* border: 1px solid red; */
+    color: #FFFFFF;
+}
+
+@media (min-width : 1024px) {
+    .header__lang-ru {
+        left: 898px;
+    }
+}
+
+@media (max-width : 768px) {
+    .header__lang-ru {
+        left: 642px;
+    }
+}
+
+@media (max-width : 375px) {
+    .header__lang-ru {
+        left: 281px;
+    }
+}
+
+@media (max-width : 320px) {
+    .header__lang-ru {
+        left: 216px;
+        height: 18px;
+        font-size: 18px;
+        line-height: 17px;
+    }
+}

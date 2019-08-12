@@ -1,0 +1,50 @@
+@import url("./__image/emblem__item__image.css");
+@import url("./__city/emblem__item__city.css");
+
+.emblem__item {
+    position: relative;
+    width: 208px;
+    height: 310px;
+
+    /* border: 1px solid #f00; */
+    
+}
+
+@media (min-width : 1024px) {
+    .emblem__item {
+        width: 184px;
+        height: 286px;
+    }
+}
+
+@media (max-width : 768px) {
+    .emblem__item {
+        width: 208px;
+        height: 310px;
+    }
+}
+
+@media (max-width : 375px) {
+    .emblem__item {
+        width: 208px;
+        height: 284px;
+    }
+    .emblem__item:first-child {
+        width: 208px;
+        height: 310px;
+    }
+}
+
+@media (max-width : 320px) {
+    .emblem__item {
+        width: 208px;
+        height: 284px;
+        left: 40px;
+    }
+    .emblem__item:first-child {
+        width: 208px;
+        height: 310px;
+        left: 40px;
+    }
+}
+

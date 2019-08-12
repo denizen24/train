@@ -1,0 +1,40 @@
+.emblem__item__image {
+    position: absolute;
+    width: 186.11px;
+    height: 226px;
+    left: 10px;
+    top: 0px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    /* border: 1px solid #f00; */
+}
+
+@media (min-width : 1024px) {
+    .emblem__item__image {
+        width: 164.69px;
+        height: 200px;
+    }
+}
+
+@media (max-width : 768px) {
+    .emblem__item__image {
+        width: 186.11px;
+        height: 226px;
+    }
+}
+
+@media (max-width : 375px) {
+    .emblem__item__image {
+        width: 186px;
+        height: 226px;
+    }
+}
+
+@media (max-width : 320px) {
+    .emblem__item__image {
+        width: 186px;
+        height: 226px;
+    }
+}

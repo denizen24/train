@@ -1,0 +1,32 @@
+.photo-grid__item {
+
+    /* border: 1px solid #f00; */
+}
+
+@media (min-width : 1024px) {
+    .photo-grid__item {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (max-width : 768px) {
+    .photo-grid__item {
+        width: 352px;
+        height: 234px;
+    }
+}
+
+@media (max-width : 375px) {
+    .photo-grid__item {
+        width: 343px;
+        height: 232px;
+    }
+}
+
+@media (max-width : 320px) {
+    .photo-grid__item {
+        width: 288px;
+        height: 192px;
+    }
+}

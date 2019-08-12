@@ -1,0 +1,53 @@
+.emblem__title {
+    position: absolute;
+    width: 443px;
+    height: 131px;
+    left: 0px;
+    top: 0px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-family: Inter;
+    font-size: 42px;
+    line-height: 45px;
+    font-weight: bold;
+
+    color: #FFFFFF;
+
+    /* border: 1px solid #f00; */
+}
+
+@media (max-width : 768px) {
+    .emblem__title {
+        width: 590px;
+        height: 131px;
+        left: 0px;
+        top: 0px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width : 375px) {
+    .emblem__title {
+        width: 343px;
+        height: 64px;
+        left: 0px;
+        top: 0px;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+    }
+}
+
+@media (max-width : 320px) {
+    .emblem__title {
+        width: 288px;
+        height: 64px;
+        left: 0px;
+        top: 0px;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+    }
+}

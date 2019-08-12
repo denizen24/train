@@ -1,0 +1,44 @@
+.lead__caption {
+    position: absolute;
+    width: 636px;
+    height: 10px;
+    left: 0px;
+    top: 940px;
+
+    margin-top: 0px;
+    font-family: Inter;
+    font-size: 10px;
+    line-height: normal;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    /* border: 1px solid red; */
+}
+
+@media (max-width : 768px) {
+    .lead__caption {
+        left: 24px;
+        line-height: 12px;
+        top: 800px;
+    }
+}
+
+@media (max-width : 375px) {
+    .lead__caption {
+        width: 343px;
+        height: 10px;
+        left: 16px;
+        top: 402px;
+    }
+}
+
+@media (max-width : 320px) {
+    .lead__caption {
+        width: 288px;
+        height: 10px;
+        left: 16px;
+        top: 403px;
+        line-height: 12px;
+    }
+}

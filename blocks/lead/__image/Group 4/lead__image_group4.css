@@ -1,0 +1,44 @@
+.lead__image_group4 {
+    position: absolute;
+    width: 937.08px;
+    height: 225.68px;
+    left: 23.27px;
+    top: 501.88px;
+    /* border: 1px solid red; */
+    /* background: url(../../../../images/Group\ 4.png); */
+}
+
+@media (min-width : 1024px) {
+    .lead__image_group4 {
+        width: 883.75px;
+        height: 225.63px;
+        left: 21.95px;
+    }
+}
+
+@media (max-width : 768px) {
+    .lead__image_group4 {
+        width: 731.38px;
+        height: 171.05px;
+        left: 18.16px;
+        top: 461.17px;
+    }
+}
+
+@media (max-width : 375px) {
+    .lead__image_group4 {
+        width: 357.12px;
+        height: 85.93px;
+        left: 8.87px;
+        top: 245.86px;
+    }
+}
+
+@media (max-width : 320px) {
+    .lead__image_group4 {
+        width: 304.74px;
+        height: 85.93px;
+        left: 7.57px;
+        top: 244.86px;
+    }
+}

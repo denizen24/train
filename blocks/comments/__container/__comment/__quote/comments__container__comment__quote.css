@@ -1,0 +1,62 @@
+.comments__container__comment__quote {
+    position: absolute;
+    width: 382px;
+    height: 37px;
+    left: 0px;
+    top: 139px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+    /* border: 1px solid #f00; */
+}
+
+@media (min-width : 1024px) {
+    .comments__container__comment__quote {
+        width: 272px;
+        height: 37px;
+        left: 0px;
+        top: 137px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width : 768px) {
+    .comments__container__comment__quote {
+        width: 336px;
+        height: 37px;
+        left: 0px;
+        top: 150px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media (max-width : 375px) {
+    .comments__container__comment__quote {
+        width: 343px;
+        height: 72px;
+        left: 0px;
+        top: 153px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media (max-width : 320px) {
+    .comments__container__comment__quote {
+        width: 288px;
+        height: 72px;
+        left: 0px;
+        top: 153px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}

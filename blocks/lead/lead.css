@@ -1,0 +1,52 @@
+@import url("../../blocks/lead/__title/lead__title.css");
+@import url("../../blocks/lead/__subtitle/lead__subtitle.css");
+@import url("../../blocks/lead/__image/lead__image.css");
+@import url("../../blocks/lead/__image/Group 4/lead__image_group4.css");
+@import url("../../blocks/lead/__caption/lead__caption.css");
+
+.lead {
+    
+    position: absolute;
+    width: 985px;
+    height: 950px;
+    left: 147px;
+    top: 130px;
+
+    /* border: 1px solid red; */
+}
+
+@media (min-width : 1024px) {
+    .lead {
+        width: 928px;
+        height: 955px;
+        left: 48px;
+        top: 130px;
+    }
+}
+
+@media (max-width : 768px) {
+    .lead {
+        width: 768px;
+        height: 821px;
+        left: 0px;
+        top: 130px;
+    }
+}
+
+@media (max-width : 375px) {
+    .lead {
+        width: 391px;
+        height: 412px;
+        left: 0px;
+        top: 132px;
+    }
+}
+
+@media (max-width : 320px) {
+    .lead {
+        width: 320px;
+        height: 413px;
+        left: 0px;
+        top: 106px;
+    }
+}

@@ -1,0 +1,33 @@
+.video__container__item__icon_play {
+    position: absolute;
+    height: 41px;
+    left: 30px;
+    top: 30px;
+
+    /* background: #FFFFFF; */
+    z-index: 3;
+}
+
+@media (max-width : 768px) {
+    .video__container__item__icon_play {
+        height: 42.71px;
+        left: 24.68px;
+        top: 25px;
+    }
+}
+
+@media (max-width : 375px) {
+    .video__container__item__icon_play {
+        height: 41px;
+        left: 24px;
+        top: 24px;
+    }
+}
+
+@media (max-width : 320px) {
+    .video__container__item__icon_play {
+        height: 41px;
+        left: 16px;
+        top: 16px;
+    }
+}

@@ -1,0 +1,41 @@
+@import url("../header/__logo/header__logo.css");
+@import url("../header/__lang-ru/header__lang-ru.css");
+@import url("../header/__lang-en/header__lang-en.css");
+
+.header {
+    position: absolute;
+    width: 1184px;
+    height: 52px;
+    left: 48px;
+    top: 30px;
+    /* border: 1px solid red; */
+}
+
+@media (min-width : 1024px) {
+    .header {
+        width: 928px;
+    }
+}
+
+@media (max-width : 768px) {
+    .header {
+        width: 720px;
+        left: 24px;
+    }
+}
+
+@media (max-width : 375px) {
+    .header {
+        width: 343px;
+        left: 16px;
+    }
+}
+
+@media (max-width : 320px) {
+    .header {
+        width: 288px;
+        left: 16px;
+        height: 42px;
+        top: 16px;
+    }
+}

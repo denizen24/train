@@ -1,0 +1,33 @@
+.comments__container__comment_image {
+    position: absolute;
+    width: 97px;
+    height: 97px;
+    left: 0px;
+    top: 0px;
+    border-radius: 48px;
+
+    /* border: 1px solid #f00; */
+}
+
+@media (max-width : 768px) {
+    .comments__container__comment_image {
+        left: 123px;
+        top: 0px;
+    }
+}
+
+@media (max-width : 375px) {
+    .comments__container__comment_image {
+        left: 123px;
+        top: 0px;
+    }
+}
+
+@media (max-width : 320px) {
+    .comments__container__comment_image {
+        width: 96px;
+        height: 96px;
+        left: 96px;
+        top: 0px;
+    }
+}

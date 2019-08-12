@@ -1,0 +1,34 @@
+.video__container__item__item-bg_image {
+    position: absolute;
+    width: 583px;
+    height: 323px;
+    border-radius: 5px;
+}
+
+@media (min-width : 1024px) {
+    .video__container__item__item-bg_image {
+        width: 456px;
+        height: 288px;
+    }
+}
+
+@media (max-width : 768px) {
+    .video__container__item__item-bg_image {
+        width: 352px;
+        height: 200px;
+    }
+}
+
+@media (max-width : 375px) {
+    .video__container__item__item-bg_image {
+        width: 343px;
+        height: 200px;
+    }
+}
+
+@media (max-width : 320px) {
+    .video__container__item__item-bg_image {
+        width: 288px;
+        height: 192px;
+    }
+}

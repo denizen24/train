@@ -1,0 +1,49 @@
+@import url("./__title/cover__title.css");
+@import url("./__subtitle/cover__subtitle.css");
+@import url("./__cover-bg/cover__cover-bg.css");
+
+.cover {
+    position: absolute;
+    width: 1184px;
+    height: 594px;
+    left: 48px;
+    top: 7931px;
+
+    /* border: 1px solid #f00; */
+}
+
+@media (min-width : 1024px) {
+    .cover {
+        width: 1024px;
+        height: 591px;
+        left: 0px;
+        top: 8111px;
+    }
+}
+
+@media (max-width : 768px) {
+    .cover {
+        width: 768px;
+        height: 500px;
+        left: 0px;
+        top: 8965px;
+    }
+}
+
+@media (max-width : 375px) {
+    .cover {
+        width: 375px;
+        height: 272px;
+        left: 0px;
+        top: 13076px;
+    }
+}
+
+@media (max-width : 320px) {
+    .cover {
+        width: 320px;
+        height: 216px;
+        left: 0px;
+        top: 13486px;
+    }
+}

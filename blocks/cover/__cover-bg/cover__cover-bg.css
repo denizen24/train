@@ -1,0 +1,34 @@
+@import url("./Image/cover__cover-bg_image.css");
+@import url("./rect/cover__cover-bg_rect.css");
+
+.cover__cover-bg {
+    position: relative;
+}
+
+@media (min-width : 1024px) {
+    .cover__cover-bg {
+        width: 1024px;
+        height: 591px;
+    }
+}
+
+@media (max-width : 768px) {
+    .cover__cover-bg {
+        width: 768px;
+        height: 500px;
+    }
+}
+
+@media (max-width : 375px) {
+    .cover__cover-bg {
+        width: 375px;
+        height: 272px;
+    }
+}
+
+@media (max-width : 320px) {
+    .cover__cover-bg {
+        width: 320px;
+        height: 216px;
+    }
+}

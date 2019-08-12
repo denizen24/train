@@ -1,0 +1,38 @@
+.lead__image {
+    position: absolute;
+    width: 984px;
+    height: 554.13px;
+    left: 0px;
+    top: 375px;
+}
+
+@media (min-width : 1024px) {
+    .lead__image {
+        width: 928px;
+        height: 554px;
+    }
+}
+
+@media (max-width : 768px) {
+    .lead__image {
+        width: 768px;
+        height: 420px;
+        top: 365px;
+    }
+}
+
+@media (max-width : 375px) {
+    .lead__image {
+        width: 375px;
+        height: 211px;
+        top: 183px;
+    }
+}
+
+@media (max-width : 320px) {
+    .lead__image {
+        width: 320px;
+        height: 211px;
+        top: 184px;
+    }
+}

@@ -1,0 +1,46 @@
+.barentsburg__text {
+    position: absolute;
+    width: 380px;
+    height: 120px;
+    left: 2px;
+    top: 660px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+@media (min-width : 1024px) {
+    .barentsburg__text {
+        left: 50px;
+    }
+}
+
+@media (max-width : 768px) {
+    .barentsburg__text {
+        width: 405px;
+        left: 24px;
+        top: 566px;
+    }
+}
+
+@media (max-width : 375px) {
+    .barentsburg__text {
+        width: 343px;
+        left: 16px;
+        top: 393px;
+    }
+}
+
+@media (max-width : 320px) {
+    .barentsburg__text {
+        width: 288px;
+        left: 16px;
+        top: 393px;
+    }
+}
