@@ -1,0 +1,62 @@
+@import url("../vendor/normalize.css");
+@import url("../fonts/Inter/inter.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/lead/lead.css");
+@import url("../blocks/intro/intro.css");
+@import url("../blocks/photo-grid/photo-grid.css");
+@import url("../blocks/places/places.css");
+@import url("../blocks/video/video.css");
+@import url("../blocks/additional/additional.css");
+@import url("../blocks/comments/comments.css");
+@import url("../blocks/cover/cover.css");
+@import url("../blocks/emblem/emblem.css");
+@import url("../blocks/barentsburg/barentsburg.css");
+@import url("../blocks/footer/footer.css");
+
+body {
+    position: relative;
+    width: 1280px;
+    height: 10226px;
+    background: #2A2C2F;
+    margin: 0 auto;
+    font-family: Inter;
+}
+
+@media (min-width : 1440px) {
+    body {
+        width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width : 1024px) {
+    body {
+        width: 1024px;
+        height: 10360px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width : 768px) {
+    body {
+        width: 768px;
+        height: 11360px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width : 375px) {
+    body {
+        width: 375px;
+        height: 16155px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width : 320px) {
+    body {
+        width: 320px;
+        height: 16532px;
+        margin: 0 auto;
+    }
+}
